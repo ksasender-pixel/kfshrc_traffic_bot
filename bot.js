@@ -658,3 +658,13 @@ bot.on('callback_query', (query) => {
 });
 
 console.log('🚦 KFSH Traffic Bot يعمل...');
+// ===== HTTP Server (مطلوب لـ Render) =====
+const http = require('http');
+const PORT = process.env.PORT || 3000;
+http.createServer((req, res) => {
+  res.writeHead(200);
+  res.end('🚦 KFSH Traffic Bot يعمل');
+}).listen(PORT, () => {
+  console.log(`HTTP server on port ${PORT}`);
+});
+
