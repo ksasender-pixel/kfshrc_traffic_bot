@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios');
 
 // ===== إعدادات =====
-const TOKEN = '8129744121:AAESOitjLLsu0ImHbnFRWU9UZDZKBE7foRI';
+const TOKEN = '7972579610:AAE_IsalPsOOnqNwPwTnwR3HyXQSVXrEny4';
 const MANAGER_CHAT_ID = '1691033646';
 const SHEET_URL = 'https://script.google.com/macros/s/AKfycbyEWQ0rYZ_JqwEjTY-4oktfiIatWCLnKufTZ6vr1mIpGKNbgKj0j_roURk_M4OxIz926w/exec';
 
