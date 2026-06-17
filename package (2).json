@@ -1,0 +1,13 @@
+{
+  "name": "kfsh-traffic-bot",
+  "version": "1.0.0",
+  "description": "بوت خدمات قسم المرور - KFSHRC",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "axios": "^1.6.0"
+  }
+}
